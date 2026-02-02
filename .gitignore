@@ -1,0 +1,24 @@
+# GP Web Studio - Landing Page
+
+node_modules/
+.DS_Store
+.vscode/
+*.log
+.env
+.env.local
+dist/
+build/
+.cache/
+
+# Netlify
+.netlify/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini

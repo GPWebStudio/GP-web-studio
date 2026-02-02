@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="GP Web Studio - Creamos landing pages y sitios web modernos, simples y efectivos. Diseño web profesional para tu negocio."
+    />
+    <meta
+      name="keywords"
+      content="diseño web, landing page, sitios web, desarrollo web, GP Web Studio, páginas informativas"
+    />
+    <meta name="author" content="GP Web Studio" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="GP Web Studio - Diseño Web Moderno y Efectivo"
+    />
+    <meta
+      property="og:description"
+      content="Creamos experiencias web modernas, simples y efectivas para tu negocio"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>GP Web Studio | Diseño Web Moderno y Efectivo</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <span class="logo-icon">🌐</span>
+          <span class="logo-text">GP Web Studio</span>
+        </div>
+
+        <ul class="nav__menu" id="nav-menu">
+          <li class="nav__item">
+            <a href="#inicio" class="nav__link active">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#servicios" class="nav__link">Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#proceso" class="nav__link">Proceso</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#precios" class="nav__link">Precios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacto" class="nav__link btn-primary">Contacto</a>
+          </li>
+        </ul>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <span class="hero__badge">🚀 Diseño Web Profesional</span>
+          <h1 class="hero__title">
+            Creamos <span class="gradient-text">Experiencias Web</span>
+            Modernas y Efectivas
+          </h1>
+          <p class="hero__description">
+            Landing pages y sitios informativos con diseños limpios, funcionales
+            y atractivos. Perfecto para tu negocio, simple a la vista, potente
+            en resultados.
+          </p>
+          <div class="hero__buttons">
+            <a href="#contacto" class="btn btn-primary btn-large">
+              Solicita tu Cotización Gratis
+            </a>
+            <a href="#portfolio" class="btn btn-secondary btn-large">
+              Ver Trabajos
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__number">+15</span>
+              <span class="stat__label">Proyectos</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">100%</span>
+              <span class="stat__label">Satisfacción</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">5-7</span>
+              <span class="stat__label">Días Entrega</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image">
+          <div class="hero__image-wrapper">
+            <!-- Animated browser mockup will be added via CSS -->
+            <div class="browser-mockup">
+              <div class="browser-header">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+              </div>
+              <div class="browser-content">
+                <div class="code-animation">
+                  <div class="code-line"></div>
+                  <div class="code-line short"></div>
+                  <div class="code-line"></div>
+                  <div class="code-line medium"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="servicios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">✨ Lo Que Hacemos</span>
+          <h2 class="section__title">Nuestros Servicios</h2>
+          <p class="section__description">
+            Soluciones web diseñadas para impulsar tu negocio
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <div class="service-card">
+            <div class="service-card__icon">🎨</div>
+            <h3 class="service-card__title">Landing Pages</h3>
+            <p class="service-card__description">
+              Diseños modernos que capturan la atención y convierten visitantes
+              en clientes.
+            </p>
+            <ul class="service-card__features">
+              <li>Diseño personalizado</li>
+              <li>100% Responsive</li>
+              <li>Optimizado para conversión</li>
+            </ul>
+          </div>
+
+          <div class="service-card featured">
+            <div class="service-card__badge">⭐ Más Popular</div>
+            <div class="service-card__icon">📄</div>
+            <h3 class="service-card__title">Páginas Informativas</h3>
+            <p class="service-card__description">
+              Sitios web profesionales para mostrar tus servicios y atraer más
+              clientes.
+            </p>
+            <ul class="service-card__features">
+              <li>SEO optimizado</li>
+              <li>Carga ultra rápida</li>
+              <li>Fácil de actualizar</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">📧</div>
+            <h3 class="service-card__title">Formularios Integrados</h3>
+            <p class="service-card__description">
+              Conecta directamente con tus clientes mediante formularios
+              eficientes.
+            </p>
+            <ul class="service-card__features">
+              <li>Formspree integrado</li>
+              <li>Anti-spam incluido</li>
+              <li>Notificaciones instantáneas</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🚀</div>
+            <h3 class="service-card__title">Deploy en Netlify</h3>
+            <p class="service-card__description">
+              Hosting rápido, seguro y confiable para tu sitio web.
+            </p>
+            <ul class="service-card__features">
+              <li>CDN global</li>
+              <li>HTTPS automático</li>
+              <li>99.9% uptime</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">📱</div>
+            <h3 class="service-card__title">Diseño Responsive</h3>
+            <p class="service-card__description">
+              Tu sitio se verá perfecto en móviles, tablets y computadoras.
+            </p>
+            <ul class="service-card__features">
+              <li>Mobile-first</li>
+              <li>Touch optimizado</li>
+              <li>Cross-browser</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🎯</div>
+            <h3 class="service-card__title">SEO Básico</h3>
+            <p class="service-card__description">
+              Optimización para que tus clientes te encuentren en Google.
+            </p>
+            <ul class="service-card__features">
+              <li>Meta tags optimizados</li>
+              <li>Estructura semántica</li>
+              <li>Performance optimizado</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section section--dark" id="proceso">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">🚀 Cómo Trabajamos</span>
+          <h2 class="section__title">Nuestro Proceso</h2>
+          <p class="section__description">Simple, transparente y eficiente</p>
+        </div>
+
+        <div class="process__timeline">
+          <div class="process-step">
+            <div class="process-step__number">1</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Consulta Inicial</h3>
+              <p class="process-step__description">
+                Escuchamos tus necesidades y definimos objetivos claros para tu
+                proyecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__number">2</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Propuesta</h3>
+              <p class="process-step__description">
+                Te presentamos el plan de trabajo, alcance y presupuesto
+                transparente.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__number">3</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Desarrollo</h3>
+              <p class="process-step__description">
+                Creamos tu sitio web con diseño moderno, código limpio y
+                funcionalidad perfecta.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__number">4</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Revisiones</h3>
+              <p class="process-step__description">
+                Ajustamos según tu feedback hasta que estés 100% satisfecho.
+              </p>
+            </div>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step__number">5</div>
+            <div class="process-step__content">
+              <h3 class="process-step__title">Lanzamiento</h3>
+              <p class="process-step__description">
+                Publicamos tu sitio y te entregamos toda la documentación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">💼 Nuestro Trabajo</span>
+          <h2 class="section__title">Portfolio</h2>
+          <p class="section__description">
+            Ejemplos reales de nuestros proyectos
+          </p>
+        </div>
+
+        <div class="portfolio__grid">
+          <div class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img
+                src="images/portfolio-servigroup.jpg"
+                alt="A&A Servigroup LLC Website"
+                loading="lazy"
+              />
+              <div class="portfolio-card__overlay">
+                <a
+                  href="https://servigroupllc.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary"
+                >
+                  Ver Sitio
+                </a>
+              </div>
+            </div>
+            <div class="portfolio-card__content">
+              <h3 class="portfolio-card__title">A&A SERVIGROUP LLC</h3>
+              <p class="portfolio-card__description">
+                Sitio web profesional para empresa de servicios de limpieza con
+                diseño moderno y formularios integrados.
+              </p>
+              <div class="portfolio-card__tags">
+                <span class="tag">Landing Page</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">Formspree</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- More portfolio items can be added here -->
+          <div class="portfolio-card placeholder">
+            <div class="portfolio-card__placeholder-content">
+              <span class="placeholder-icon">🚀</span>
+              <h3>Tu Proyecto Aquí</h3>
+              <p>¿Listo para ser el próximo?</p>
+              <a href="#contacto" class="btn btn-primary">Empezar Ahora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section section--dark" id="precios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">💰 Planes y Precios</span>
+          <h2 class="section__title">Elige el Plan Perfecto</h2>
+          <p class="section__description">
+            Precios transparentes y sin sorpresas
+          </p>
+        </div>
+
+        <div class="pricing__grid">
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__title">Básico</h3>
+              <div class="pricing-card__price">
+                <span class="price-currency">$</span>
+                <span class="price-amount">180</span>
+                <span class="price-period">USD</span>
+              </div>
+              <p class="pricing-card__description">Perfecto para empezar</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✓ Landing page de 1 página</li>
+              <li>✓ 5-7 secciones</li>
+              <li>✓ Diseño responsive</li>
+              <li>✓ Formulario de contacto</li>
+              <li>✓ 1 ronda de revisiones</li>
+              <li>✓ Entrega en 5-7 días</li>
+            </ul>
+            <a href="#contacto" class="btn btn-secondary btn-block"
+              >Elegir Plan</a
+            >
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="pricing-card__badge">⭐ Más Popular</div>
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__title">Estándar</h3>
+              <div class="pricing-card__price">
+                <span class="price-currency">$</span>
+                <span class="price-amount">300</span>
+                <span class="price-period">USD</span>
+              </div>
+              <p class="pricing-card__description">La mejor opción</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✓ Todo lo del plan Básico</li>
+              <li>✓ Dominio .com gratis (1 año)</li>
+              <li>✓ Hosting configurado</li>
+              <li>✓ SEO básico optimizado</li>
+              <li>✓ Google Analytics</li>
+              <li>✓ 2 rondas de revisiones</li>
+              <li>✓ Entrega en 7-10 días</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary btn-block"
+              >Elegir Plan</a
+            >
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__title">Premium</h3>
+              <div class="pricing-card__price">
+                <span class="price-currency">$</span>
+                <span class="price-amount">500</span>
+                <span class="price-period">USD</span>
+              </div>
+              <p class="pricing-card__description">Máxima calidad</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✓ Todo lo del plan Estándar</li>
+              <li>✓ Hasta 3 páginas adicionales</li>
+              <li>✓ Integración redes sociales</li>
+              <li>✓ Logo básico incluido</li>
+              <li>✓ 3 rondas de revisiones</li>
+              <li>✓ Soporte 1 mes post-lanzamiento</li>
+              <li>✓ Entrega en 10-14 días</li>
+            </ul>
+            <a href="#contacto" class="btn btn-secondary btn-block"
+              >Elegir Plan</a
+            >
+          </div>
+        </div>
+
+        <div class="pricing__note">
+          <p>
+            💡 <strong>Nota:</strong> Todos los planes incluyen código limpio,
+            documentación completa y soporte durante el desarrollo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contacto">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">📬 Hablemos</span>
+          <h2 class="section__title">¿Listo para tu Nuevo Sitio Web?</h2>
+          <p class="section__description">
+            Contáctanos y recibe una cotización gratuita en 24 horas
+          </p>
+        </div>
+
+        <div class="contact__container">
+          <div class="contact__info">
+            <h3>¿Por qué elegirnos?</h3>
+            <ul class="contact__benefits">
+              <li>
+                <span class="benefit-icon">⚡</span>
+                <div>
+                  <strong>Entrega Rápida</strong>
+                  <p>Tu sitio listo en 5-14 días</p>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">💰</span>
+                <div>
+                  <strong>Precios Accesibles</strong>
+                  <p>Calidad profesional sin excesos</p>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">🎨</span>
+                <div>
+                  <strong>Diseño Moderno</strong>
+                  <p>Simple, hermoso y efectivo</p>
+                </div>
+              </li>
+              <li>
+                <span class="benefit-icon">🤝</span>
+                <div>
+                  <strong>Soporte Continuo</strong>
+                  <p>Estamos aquí para ayudarte</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <form
+            class="contact__form"
+            id="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name">Nombre Completo *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Tu nombre"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="tu@email.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Teléfono</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+58 123 456 7890"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Servicio de Interés *</label>
+              <select id="service" name="service" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="landing">Landing Page</option>
+                <option value="informativa">Página Informativa</option>
+                <option value="personalizado">Proyecto Personalizado</option>
+                <option value="consulta">Solo una Consulta</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Presupuesto Aproximado</label>
+              <select id="budget" name="budget">
+                <option value="">Selecciona un rango</option>
+                <option value="150-250">$150 - $250 USD</option>
+                <option value="250-400">$250 - $400 USD</option>
+                <option value="400-600">$400 - $600 USD</option>
+                <option value="600+">$600+ USD</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Cuéntanos sobre tu proyecto *</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                rows="5"
+                placeholder="Describe brevemente lo que necesitas..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large btn-block">
+              Enviar Solicitud
+            </button>
+
+            <p class="form-note">
+              * Campos obligatorios. Te responderemos en menos de 24 horas.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <span class="logo-icon">🌐</span>
+              <span class="logo-text">GP Web Studio</span>
+            </div>
+            <p class="footer__tagline">
+              Creando experiencias web modernas, simples y efectivas
+            </p>
+          </div>
+
+          <div class="footer__links">
+            <div class="footer__column">
+              <h4>Servicios</h4>
+              <ul>
+                <li><a href="#servicios">Landing Pages</a></li>
+                <li><a href="#servicios">Páginas Informativas</a></li>
+                <li><a href="#servicios">Formularios</a></li>
+                <li><a href="#servicios">SEO Básico</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__column">
+              <h4>Empresa</h4>
+              <ul>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__column">
+              <h4>Tecnologías</h4>
+              <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Formspree.io</li>
+                <li>Netlify</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; 2026 GP Web Studio. Todos los derechos reservados.</p>
+          <p>Hecho con ❤️ por GP Web Studio</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+      ↑
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
