@@ -10,7 +10,7 @@
   <img src="https://cdn.simpleicons.org/html5/E34F26" height="50" alt="HTML5 Logo" />
 </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-  <img src="https://cdn.simpleicons.org/css3/1572B6" height="50" alt="CSS3 Logo" />
+  <img src="https://cdn.simpleicons.org/css3/1572B6/white" height="50" alt="CSS3 Logo" />
 </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
   <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="50" alt="JavaScript Logo" />
@@ -19,7 +19,7 @@
   <img src="https://cdn.simpleicons.org/formspree/E51C2C" height="50" alt="Formspree Logo" />
 </a>
 <a href="https://pages.github.com/" target="_blank">
-  <img src="https://cdn.simpleicons.org/github/181717" height="50" alt="GitHub Pages Logo" />
+  <img src="https://cdn.simpleicons.org/github/2F80ED" height="50" alt="GitHub Pages Logo" />
 </a>
 
 </div>
