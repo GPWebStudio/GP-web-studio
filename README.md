@@ -6,11 +6,21 @@
 
 **Creando experiencias web modernas, simples y efectivas**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
-[![Formspree](https://img.shields.io/badge/Formspree-EA4335?style=for-the-badge&logo=formspree&logoColor=white)](https://formspree.io/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+  <img src="https://cdn.simpleicons.org/html5/E34F26" height="50" alt="HTML5 Logo" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+  <img src="https://cdn.simpleicons.org/css3/1572B6" height="50" alt="CSS3 Logo" />
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="50" alt="JavaScript Logo" />
+</a>
+<a href="https://formspree.io/" target="_blank">
+  <img src="https://cdn.simpleicons.org/formspree/E51C2C" height="50" alt="Formspree Logo" />
+</a>
+<a href="https://pages.github.com/" target="_blank">
+  <img src="https://cdn.simpleicons.org/github/181717" height="50" alt="GitHub Pages Logo" />
+</a>
 
 </div>
 
