@@ -6,11 +6,11 @@
 
 **Creando experiencias web modernas, simples y efectivas**
 
-[![Netlify](https://img.shields.io/badge/Deployed_on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)
-[![Formspree](https://img.shields.io/badge/Forms-Formspree-EA4335?style=flat-square)](https://formspree.io/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
+[![Formspree](https://img.shields.io/badge/Formspree-EA4335?style=for-the-badge&logo=formspree&logoColor=white)](https://formspree.io/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </div>
 
@@ -30,7 +30,7 @@ Nos enfocamos en ofrecer soluciones web que combinan **simplicidad visual** con 
 - 📄 **Páginas Informativas** - Sitios web claros y profesionales para tu negocio
 - 📱 **Diseño Responsive** - Perfecto en todos los dispositivos
 - 📧 **Formularios Integrados** - Contacto directo con tus clientes vía Formspree
-- 🚀 **Despliegue Rápido** - Hosting optimizado en Netlify
+- 🚀 **Despliegue Rápido** - Hosting optimizado en GitHub Pages
 - 🎯 **Diseño Simple pero Efectivo** - Interfaces limpias y fáciles de usar
 
 ---
@@ -45,7 +45,7 @@ Frontend
 
 Servicios
 ├── Formspree.io   → Gestión de formularios sin backend
-├── Netlify        → Hosting y despliegue continuo
+├── GitHub Pages   → Hosting y despliegue continuo
 └── Git/GitHub     → Control de versiones
 ```
 
@@ -101,7 +101,7 @@ proyecto/
 │   └── main.js            # Funcionalidad JavaScript
 ├── images/                 # Recursos visuales
 ├── README.md              # Documentación del proyecto
-└── netlify.toml           # Configuración de despliegue
+└── .github/           # Configuración de despliegue
 ```
 
 ---
@@ -122,10 +122,10 @@ proyecto/
 
 4. **🔗 Integración**
    - Configuración de Formspree para formularios
-   - Preparación para Netlify
+   - Preparación para GitHub Pages
 
 5. **🚀 Despliegue**
-   - Deployment en Netlify
+   - Deployment en GitHub Pages
    - Configuración de dominio personalizado
 
 6. **✅ Entrega**
@@ -145,15 +145,15 @@ Todos nuestros formularios están integrados con **Formspree.io** para:
 
 ---
 
-## 🌐 Despliegue con Netlify
+## 🌐 Despliegue con GitHub Pages
 
-Utilizamos Netlify para hosting porque ofrece:
+Utilizamos GitHub Pages para hosting porque ofrece:
 
 - ⚡ CDN global para velocidad óptima
 - 🔄 Despliegue automático desde GitHub
 - 🆓 Plan gratuito generoso
 - 🔒 HTTPS automático
-- 🎯 Formularios nativos (Netlify Forms)
+- ⚡ Integración directa con el repositorio
 
 ---
 
@@ -257,7 +257,7 @@ Trabajamos con las mejores herramientas gratuitas y de código abierto:
 - **Editor**: VS Code
 - **Control de Versiones**: Git & GitHub
 - **Formularios**: Formspree.io
-- **Hosting**: Netlify
+- **Hosting**: GitHub Pages
 - **Diseño**: Figma (opcional para mockups)
 - **Imágenes**: Unsplash, Pexels
 - **Íconos**: Font Awesome, Heroicons
@@ -307,7 +307,7 @@ Los proyectos individuales pueden tener diferentes licencias según las necesida
 
 Agradecemos a todas las herramientas y servicios que hacen posible nuestro trabajo:
 
-- Netlify por el hosting gratuito
+- GitHub Pages por el hosting gratuito
 - Formspree por la gestión de formularios
 - La comunidad de desarrollo web por recursos y apoyo
 
