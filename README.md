@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GP Web Studio Banner](https://img.shields.io/badge/GP_Web_Studio-Modern_Web_Solutions-4A90E2?style=for-the-badge)
+![GP Web Studio Logo](images/gp-logo.jpg)
 
 **Creando experiencias web modernas, simples y efectivas**
 
